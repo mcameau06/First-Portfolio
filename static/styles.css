@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Poppins&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0; 
+}
+    
+body{
+    min-height: 100vh;
+    background: linear-gradient(rgb(0, 0, 0),rgb(94, 94, 92));
+    
+    background-size: cover;
+    background-position: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: goldenrod;
+}
+
+/* navbar create */
+#toright{
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-size: large;
+    justify-content: center;
+    
+}
+
+a{
+   text-decoration: none;
+   color: goldenrod;
+   font-weight: 700;
+
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    color:   goldenrod;
+    margin-left: 50px;
+
+}
+
+.navbar li{
+    margin-right: 20px;
+    
+}
+
+/* main section on the homepage */
+.hello{
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.animate{
+    font-size: 60px;
+    caret-color: goldenrod;
+    border-right: 4px solid goldenrod;
+    
+    animation: blinking 1s steps(1,end) infinite,
+    typing 4s steps(40, end);
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@keyframes blinking{
+    0% { border-color: transparent}
+    50% { border-color: goldenrod}
+    100% {boder-color: transparent}
+}
+
+@keyframes typing{
+    0% { width: 0}
+    100% {width: 100%}
+}
+
+.text h2{
+    font-size: 50px;
+}
+
+/* Find me section */
+
+.find-me{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+
+.find-me ul{
+    margin-left: 20px;
+}
+
+.find-me li{
+    border: 1px solid black;
+    border-radius: 15px;
+    background: linear-gradient(white, rgb(62, 58, 46));
+    font-size: 20px;
+    padding: 10px;
+    margin-top:20px;
+    margin-left: 20px;
+}
+
+.flask-image{
+    width: 30px;
+    height:auto;
+}
+
+.desc-container{
+    display: flex;
+    justify-content: center;
+}
+
+#github-color{
+    color: rgb(0, 3, 51);
+}
+
+#linkedin-color{
+    color:#0077B5;
+}
+
+#youtube-color{
+    color: rgb(205, 32, 31);
+}
+
+.find-me a:hover{
+    letter-spacing: 0.15em;
+}

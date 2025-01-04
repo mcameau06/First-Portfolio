@@ -111,11 +111,11 @@ a{
 
 .find-me li{
     border: 1px solid black;
-    border-radius: 15px;
-    background: linear-gradient(white, rgb(62, 58, 46));
+    border-radius: 20px;
+    background: rgb(2,0,36);
     font-size: 20px;
     padding: 10px;
-    margin-top:20px;
+    margin-top:60px;
     margin-left: 20px;
 }
 
@@ -130,7 +130,7 @@ a{
 }
 
 #github-color{
-    color: rgb(0, 3, 51);
+    color: #e8eaea;
 }
 
 #linkedin-color{
@@ -141,6 +141,19 @@ a{
     color: rgb(205, 32, 31);
 }
 
-.find-me a:hover{
-    letter-spacing: 0.15em;
+/* contact section */
+
+.contact{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+.contact-icon{
+    margin-left: 10px;
+    margin-top: 7px;
+    color: wheat;
+    
+
 }

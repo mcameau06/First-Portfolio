@@ -199,3 +199,11 @@ hr{
 
 /* Projects Page */
 
+.head-proj{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+/* resume */
+

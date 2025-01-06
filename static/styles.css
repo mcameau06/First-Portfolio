@@ -206,4 +206,15 @@ hr{
 }
 
 /* resume */
+.resume{
+    width: 50%;
+    height: 800;
+    display: flex;
+    justify-content: center;
+}
+#resume{
+    display: flex;
+    justify-content: center;
+    height:550px;
 
+}
